@@ -1,7 +1,55 @@
+:root {
+    --background-color: #573824;
+    --surface-color: #F0E8C2;
+    
+    --text-color-primary: #291B1A;
+    --text-color-secondary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+}
+
+* {
+    font-family: "Alice", serif;
+}
+
+body {
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    width: 800px;
+    margin: 48px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    line-height: 140%;
+    color: var(--text-color-primary);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--text-color-primary);
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--text-color-secondary);
+}
+
+ul {
+    color: var(--text-color-secondary);
+}
+
+#page {
+    background-color: var(--surface-color);
+    padding: 24px;
+    border-radius: 24px;
+}
+
 img {
     border-radius: 16px;
 }
 
-body {
-    background-image: url("../images/background.jpg");
-}
