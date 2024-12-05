@@ -80,9 +80,13 @@ ul {
 }
 
 footer {
-    margin-bottom: 53px;
+    margin-bottom: 48px;
 }
 
 footer p {
-    color: #fff;
+    color: var(--text-color-on-bg);
+}
+
+footer span {
+    vertical-align: middle;
 }
